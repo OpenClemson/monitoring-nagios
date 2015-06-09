@@ -15,20 +15,20 @@ tags, and level.
 
 ## Metadata Format
 
-{
-	"tag": "myapp",
-	"endpoints":[
-		{
-			"name": "endpoint-test1",
-			"url": "/path/to/service/test",
-			"level": "warning",
-			"tags": "service-tag",
-			"timeout": 30
-		}, {
-			"name": "endpoint-test2",
-			"url": "/path/to/service/test2",
-			"level": "critical",
-			"tags": "service-tag1,service-tag2"
-		} 
-	]
-}
+	{
+		"tag": "myapp",
+		"endpoints":[
+			{
+				"name": "endpoint-test1",
+				"url": "/path/to/service/test",
+				"level": "warning",
+				"tags": "service-tag",
+				"timeout": 30
+			}, {
+				"name": "endpoint-test2",
+				"url": "/path/to/service/test2",
+				"level": "critical",
+				"tags": "service-tag1,service-tag2"
+			} 
+		]
+	}
