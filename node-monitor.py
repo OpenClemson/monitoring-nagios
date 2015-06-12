@@ -18,8 +18,8 @@ def main():
 
     # open all 3 files, parse them, grab the items
     vs_file = open(os.path.join(args.folder, "vcmp-virtual-servers.json"))
-    pools_file = open(os.path.join(args.folder, "vcmp-virtual-pools.json"))
-    pool_members_file = open(os.path.join(args.folder, "vcmp-virtual-pool-members.json"))
+    pools_file = open(os.path.join(args.folder, "vcmp-pools.json"))
+    pool_members_file = open(os.path.join(args.folder, "vcmp-pool-members.json"))
 
     # this isnt a blank line
     vs_obj = json.load(vs_file)
