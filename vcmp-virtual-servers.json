@@ -1,0 +1,674 @@
+{
+    "generation": 17,
+    "items": [
+        {
+            "address": "10.20.37.125",
+            "description": "testing",
+            "generation": 1,
+            "kind": "tm:cloud:ltm:virtual-servers:ltmvirtualserverstate",
+            "lastUpdateMicros": 0,
+            "name": "/Common/f5saml2-02.dev.clemson.edu",
+            "objectId": 18185,
+            "poolReference": {
+                "link": "https://localhost/mgmt/tm/cloud/ltm/pools/18155"
+            },
+            "port": 443,
+            "selfLink": "https://localhost/mgmt/tm/cloud/ltm/virtual-servers/18185",
+            "statsContext": {
+                "stats": [
+                    {
+                        "description": "availability_state: AVAIL_GREEN",
+                        "lastUpdateMicros": 0,
+                        "name": "health",
+                        "updateType": "BASIC",
+                        "value": 1.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: pkts_in",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.pkts_in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: pkts_out",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.pkts_out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: bits-in",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.bits-in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: bits-out",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.bits-out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: cur_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.cur_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: max_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.max_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: tot_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.tot_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    }
+                ]
+            }
+        },
+        {
+            "address": "10.20.37.127",
+            "description": "SAML2 SP",
+            "generation": 1,
+            "kind": "tm:cloud:ltm:virtual-servers:ltmvirtualserverstate",
+            "lastUpdateMicros": 0,
+            "name": "/Common/f5saml2-only.dev.clemson.edu",
+            "objectId": 18187,
+            "poolReference": {
+                "link": "https://localhost/mgmt/tm/cloud/ltm/pools/18165"
+            },
+            "port": 443,
+            "selfLink": "https://localhost/mgmt/tm/cloud/ltm/virtual-servers/18187",
+            "statsContext": {
+                "stats": [
+                    {
+                        "description": "availability_state: AVAIL_GREEN",
+                        "lastUpdateMicros": 0,
+                        "name": "health",
+                        "updateType": "BASIC",
+                        "value": 1.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: pkts_in",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.pkts_in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: pkts_out",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.pkts_out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: bits-in",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.bits-in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: bits-out",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.bits-out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: cur_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.cur_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: max_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.max_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: tot_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.tot_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    }
+                ]
+            }
+        },
+        {
+            "address": "10.20.37.12",
+            "description": "",
+            "generation": 1,
+            "kind": "tm:cloud:ltm:virtual-servers:ltmvirtualserverstate",
+            "lastUpdateMicros": 0,
+            "name": "/Common/fikesurveytool.dev.clemson.edu",
+            "objectId": 18189,
+            "poolReference": {
+                "link": "https://localhost/mgmt/tm/cloud/ltm/pools/18149"
+            },
+            "port": 443,
+            "selfLink": "https://localhost/mgmt/tm/cloud/ltm/virtual-servers/18189",
+            "statsContext": {
+                "stats": [
+                    {
+                        "description": "availability_state: AVAIL_RED",
+                        "lastUpdateMicros": 0,
+                        "name": "health",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: pkts_in",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.pkts_in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: pkts_out",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.pkts_out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: bits-in",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.bits-in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: bits-out",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.bits-out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: cur_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.cur_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: max_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.max_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: tot_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.tot_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    }
+                ]
+            }
+        },
+        {
+            "address": "10.20.37.131",
+            "description": "docker container on devccittools port 6001",
+            "generation": 1,
+            "kind": "tm:cloud:ltm:virtual-servers:ltmvirtualserverstate",
+            "lastUpdateMicros": 0,
+            "name": "/Common/fikesurveytool.dev.clemson.edu-real",
+            "objectId": 18191,
+            "poolReference": {
+                "link": "https://localhost/mgmt/tm/cloud/ltm/pools/18153"
+            },
+            "port": 443,
+            "selfLink": "https://localhost/mgmt/tm/cloud/ltm/virtual-servers/18191",
+            "statsContext": {
+                "stats": [
+                    {
+                        "description": "availability_state: AVAIL_RED",
+                        "lastUpdateMicros": 0,
+                        "name": "health",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: pkts_in",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.pkts_in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: pkts_out",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.pkts_out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: bits-in",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.bits-in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: bits-out",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.bits-out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: cur_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.cur_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: max_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.max_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: tot_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.tot_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    }
+                ]
+            }
+        },
+        {
+            "address": "10.20.37.100",
+            "description": "test www vip",
+            "generation": 1,
+            "kind": "tm:cloud:ltm:virtual-servers:ltmvirtualserverstate",
+            "lastUpdateMicros": 0,
+            "name": "/Common/test-www",
+            "objectId": 18193,
+            "poolReference": {
+                "link": "https://localhost/mgmt/tm/cloud/ltm/pools/18161"
+            },
+            "port": 80,
+            "selfLink": "https://localhost/mgmt/tm/cloud/ltm/virtual-servers/18193",
+            "statsContext": {
+                "stats": [
+                    {
+                        "description": "availability_state: AVAIL_GREEN",
+                        "lastUpdateMicros": 0,
+                        "name": "health",
+                        "updateType": "BASIC",
+                        "value": 1.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: pkts_in",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.pkts_in",
+                        "updateType": "BASIC",
+                        "value": 2607.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: pkts_out",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.pkts_out",
+                        "updateType": "BASIC",
+                        "value": 3171.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: bits-in",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.bits-in",
+                        "updateType": "BASIC",
+                        "value": 3257184.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: bits-out",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.bits-out",
+                        "updateType": "BASIC",
+                        "value": 28565704.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: cur_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.cur_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: max_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.max_conns",
+                        "updateType": "BASIC",
+                        "value": 10.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: tot_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.tot_conns",
+                        "updateType": "BASIC",
+                        "value": 110.0
+                    }
+                ]
+            }
+        },
+        {
+            "address": "10.20.37.130",
+            "description": "vip for virtual2.clemson.edu",
+            "generation": 1,
+            "kind": "tm:cloud:ltm:virtual-servers:ltmvirtualserverstate",
+            "lastUpdateMicros": 0,
+            "name": "/Common/virtual2_clemson_edu_vip",
+            "objectId": 18195,
+            "poolReference": {
+                "link": "https://localhost/mgmt/tm/cloud/ltm/pools/18163"
+            },
+            "port": 80,
+            "selfLink": "https://localhost/mgmt/tm/cloud/ltm/virtual-servers/18195",
+            "statsContext": {
+                "stats": [
+                    {
+                        "description": "availability_state: AVAIL_RED",
+                        "lastUpdateMicros": 0,
+                        "name": "health",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: pkts_in",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.pkts_in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: pkts_out",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.pkts_out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: bits-in",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.bits-in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: bits-out",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.bits-out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: cur_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.cur_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: max_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.max_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: tot_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.tot_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    }
+                ]
+            }
+        },
+        {
+            "address": "10.20.37.111",
+            "description": "",
+            "generation": 1,
+            "kind": "tm:cloud:ltm:virtual-servers:ltmvirtualserverstate",
+            "lastUpdateMicros": 0,
+            "name": "/Common/vs_devcogweb.clemson.edu-https",
+            "objectId": 18197,
+            "poolReference": {
+                "link": "https://localhost/mgmt/tm/cloud/ltm/pools/18151"
+            },
+            "port": 443,
+            "selfLink": "https://localhost/mgmt/tm/cloud/ltm/virtual-servers/18197",
+            "statsContext": {
+                "stats": [
+                    {
+                        "description": "availability_state: AVAIL_RED",
+                        "lastUpdateMicros": 0,
+                        "name": "health",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: pkts_in",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.pkts_in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: pkts_out",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.pkts_out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: bits-in",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.bits-in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: bits-out",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.bits-out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: cur_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.cur_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: max_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.max_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: tot_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.tot_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    }
+                ]
+            }
+        },
+        {
+            "address": "10.20.37.126",
+            "description": "statseeker virtual server",
+            "generation": 1,
+            "kind": "tm:cloud:ltm:virtual-servers:ltmvirtualserverstate",
+            "lastUpdateMicros": 0,
+            "name": "/Common/vs_statseeker.clemson.edu",
+            "objectId": 18199,
+            "poolReference": {
+                "link": "https://localhost/mgmt/tm/cloud/ltm/pools/18159"
+            },
+            "port": 443,
+            "selfLink": "https://localhost/mgmt/tm/cloud/ltm/virtual-servers/18199",
+            "statsContext": {
+                "stats": [
+                    {
+                        "description": "availability_state: AVAIL_GREEN",
+                        "lastUpdateMicros": 0,
+                        "name": "health",
+                        "updateType": "BASIC",
+                        "value": 1.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: pkts_in",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.pkts_in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: pkts_out",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.pkts_out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: bits-in",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.bits-in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: bits-out",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.bits-out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: cur_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.cur_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: max_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.max_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: tot_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.tot_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    }
+                ]
+            }
+        },
+        {
+            "address": "10.20.37.100",
+            "description": "",
+            "generation": 1,
+            "kind": "tm:cloud:ltm:virtual-servers:ltmvirtualserverstate",
+            "lastUpdateMicros": 0,
+            "name": "/Common/vs_snmp-out.clemson.edu",
+            "objectId": 40311,
+            "poolReference": {
+                "link": "https://localhost/mgmt/tm/cloud/ltm/pools/40268"
+            },
+            "port": 25,
+            "selfLink": "https://localhost/mgmt/tm/cloud/ltm/virtual-servers/40311",
+            "statsContext": {
+                "stats": [
+                    {
+                        "description": "availability_state: AVAIL_RED",
+                        "lastUpdateMicros": 0,
+                        "name": "health",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: pkts_in",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.pkts_in",
+                        "updateType": "BASIC",
+                        "value": 14.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: pkts_out",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.pkts_out",
+                        "updateType": "BASIC",
+                        "value": 14.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: bits-in",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.bits-in",
+                        "updateType": "BASIC",
+                        "value": 6432.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: bits-out",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.bits-out",
+                        "updateType": "BASIC",
+                        "value": 5632.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: cur_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.cur_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: max_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.max_conns",
+                        "updateType": "BASIC",
+                        "value": 3.0
+                    },
+                    {
+                        "description": "CLIENTSIDE: tot_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "clientside.tot_conns",
+                        "updateType": "BASIC",
+                        "value": 6.0
+                    }
+                ]
+            }
+        }
+    ],
+    "kind": "tm:cloud:ltm:virtual-servers:ltmvirtualservercollectionstate",
+    "lastUpdateMicros": 0,
+    "selfLink": "https://localhost/mgmt/tm/cloud/ltm/virtual-servers"
+}

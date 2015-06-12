@@ -1,0 +1,206 @@
+{
+    "generation": 0,
+    "items": [
+        {
+            "link": "https://localhost/mgmt/tm/cloud/ltm/node-addresses"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/ltm/pool-members"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/ltm/pools"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/ltm/virtual-servers"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/asm/file-transfer/uploads"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/asm/file-transfer/downloads"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/asm/file-transfer/uploads-private"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/asm/file-transfer/downloads-private"
+        },
+        {
+            "link": "https://localhost/mgmt/tm"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/shared/licensing/activation"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/shared/licensing/registration"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/templates/iapp"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/shared/sys/config-restore"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/shared/sys/backup"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/cm/device-group"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/shared/iapp/blocks"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/shared/iapp/graph-copier"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/shared/iapp/health-prefix-map"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/shared/iapp/graphs"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/shared/iapp/icr-configuration"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/shared/iapp/template-loader"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/mam/profile-access-misc-stats"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/services/iapp"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/sys/apache-certificate-file-object"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/sys/certificate-file-object"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/sys/certificate-key-file-object"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/sys/cpu-info-stat"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/sys/host-info-stat"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/sys/disk-info"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/sys/tmm-stat"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/shared/iapp/processors/icrd-stats"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/shared/iapp/processors/noop"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/net/admin-ip"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/net/interface"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/net/route"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/net/self"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/net/vlan"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/net/sys-device"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/net/hardware-version-info"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/net/platform"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/net/software-desired"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/net/software-hotfix"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/net/software-image"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/net/software-status"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cloud/net/system-information"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cli"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/gtm"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/ltm"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/cm"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/net"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/pem"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/sys"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/transaction"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/util"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/security"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/wam"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/vcmp"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/wom"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/actions"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/apm"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/auth"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/analytics"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/asm"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/shared/iapp/health-prefix-map"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/shared/iapp/blocks"
+        },
+        {
+            "link": "https://localhost/mgmt/tm/shared/iapp/graphs"
+        }
+    ],
+    "kind": "tm:restgroupresolverviewstate",
+    "lastUpdateMicros": 1434112555481215,
+    "selfLink": "https://localhost/mgmt/tm"
+}

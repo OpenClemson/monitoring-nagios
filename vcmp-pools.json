@@ -1,0 +1,846 @@
+{
+    "generation": 3,
+    "items": [
+        {
+            "description": "craig's desktop",
+            "generation": 1,
+            "kind": "tm:cloud:ltm:pools:ltmpoolstate",
+            "lastUpdateMicros": 0,
+            "name": "/Common/cortana",
+            "objectId": 18147,
+            "poolMemberReferences": [
+                {
+                    "link": "https://localhost/mgmt/tm/cloud/ltm/pool-members/37206"
+                }
+            ],
+            "selfLink": "https://localhost/mgmt/tm/cloud/ltm/pools/18147",
+            "statsContext": {
+                "stats": [
+                    {
+                        "description": "availability_state: AVAIL_RED",
+                        "lastUpdateMicros": 0,
+                        "name": "health",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: cur_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.cur_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: max_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.max_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: tot_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.tot_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    }
+                ]
+            }
+        },
+        {
+            "description": "devccittools01.clemson.edu",
+            "generation": 1,
+            "kind": "tm:cloud:ltm:pools:ltmpoolstate",
+            "lastUpdateMicros": 0,
+            "name": "/Common/devccittools",
+            "objectId": 18149,
+            "poolMemberReferences": [
+                {
+                    "link": "https://localhost/mgmt/tm/cloud/ltm/pool-members/37210"
+                }
+            ],
+            "selfLink": "https://localhost/mgmt/tm/cloud/ltm/pools/18149",
+            "statsContext": {
+                "stats": [
+                    {
+                        "description": "availability_state: AVAIL_RED",
+                        "lastUpdateMicros": 0,
+                        "name": "health",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: cur_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.cur_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: max_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.max_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: tot_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.tot_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    }
+                ]
+            }
+        },
+        {
+            "description": "",
+            "generation": 1,
+            "kind": "tm:cloud:ltm:pools:ltmpoolstate",
+            "lastUpdateMicros": 0,
+            "name": "/Common/devcogweb.clemson.edu_pool",
+            "objectId": 18151,
+            "poolMemberReferences": [
+                {
+                    "link": "https://localhost/mgmt/tm/cloud/ltm/pool-members/37217"
+                },
+                {
+                    "link": "https://localhost/mgmt/tm/cloud/ltm/pool-members/37214"
+                }
+            ],
+            "selfLink": "https://localhost/mgmt/tm/cloud/ltm/pools/18151",
+            "statsContext": {
+                "stats": [
+                    {
+                        "description": "availability_state: AVAIL_RED",
+                        "lastUpdateMicros": 0,
+                        "name": "health",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: cur_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.cur_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: max_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.max_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: tot_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.tot_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    }
+                ]
+            }
+        },
+        {
+            "description": "docker container on devccittools port 6001",
+            "generation": 1,
+            "kind": "tm:cloud:ltm:pools:ltmpoolstate",
+            "lastUpdateMicros": 0,
+            "name": "/Common/fikesurveytool.dev.clemson.edu",
+            "objectId": 18153,
+            "poolMemberReferences": [
+                {
+                    "link": "https://localhost/mgmt/tm/cloud/ltm/pool-members/37221"
+                }
+            ],
+            "selfLink": "https://localhost/mgmt/tm/cloud/ltm/pools/18153",
+            "statsContext": {
+                "stats": [
+                    {
+                        "description": "availability_state: AVAIL_RED",
+                        "lastUpdateMicros": 0,
+                        "name": "health",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: cur_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.cur_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: max_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.max_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: tot_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.tot_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    }
+                ]
+            }
+        },
+        {
+            "description": "",
+            "generation": 1,
+            "kind": "tm:cloud:ltm:pools:ltmpoolstate",
+            "lastUpdateMicros": 0,
+            "name": "/Common/shib-multi",
+            "objectId": 18155,
+            "poolMemberReferences": [
+                {
+                    "link": "https://localhost/mgmt/tm/cloud/ltm/pool-members/37225"
+                },
+                {
+                    "link": "https://localhost/mgmt/tm/cloud/ltm/pool-members/37228"
+                }
+            ],
+            "selfLink": "https://localhost/mgmt/tm/cloud/ltm/pools/18155",
+            "statsContext": {
+                "stats": [
+                    {
+                        "description": "availability_state: AVAIL_GREEN",
+                        "lastUpdateMicros": 0,
+                        "name": "health",
+                        "updateType": "BASIC",
+                        "value": 1.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: cur_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.cur_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: max_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.max_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: tot_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.tot_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    }
+                ]
+            }
+        },
+        {
+            "description": "lab for shib testing",
+            "generation": 1,
+            "kind": "tm:cloud:ltm:pools:ltmpoolstate",
+            "lastUpdateMicros": 0,
+            "name": "/Common/shibsp.clemson.edu",
+            "objectId": 18157,
+            "poolMemberReferences": [
+                {
+                    "link": "https://localhost/mgmt/tm/cloud/ltm/pool-members/37232"
+                }
+            ],
+            "selfLink": "https://localhost/mgmt/tm/cloud/ltm/pools/18157",
+            "statsContext": {
+                "stats": [
+                    {
+                        "description": "availability_state: AVAIL_RED",
+                        "lastUpdateMicros": 0,
+                        "name": "health",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: cur_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.cur_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: max_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.max_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: tot_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.tot_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    }
+                ]
+            }
+        },
+        {
+            "description": "statseeker pool",
+            "generation": 1,
+            "kind": "tm:cloud:ltm:pools:ltmpoolstate",
+            "lastUpdateMicros": 0,
+            "name": "/Common/statseeker_pool",
+            "objectId": 18159,
+            "poolMemberReferences": [
+                {
+                    "link": "https://localhost/mgmt/tm/cloud/ltm/pool-members/37236"
+                }
+            ],
+            "selfLink": "https://localhost/mgmt/tm/cloud/ltm/pools/18159",
+            "statsContext": {
+                "stats": [
+                    {
+                        "description": "availability_state: AVAIL_GREEN",
+                        "lastUpdateMicros": 0,
+                        "name": "health",
+                        "updateType": "BASIC",
+                        "value": 1.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: cur_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.cur_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: max_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.max_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: tot_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.tot_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    }
+                ]
+            }
+        },
+        {
+            "description": "test www pool",
+            "generation": 1,
+            "kind": "tm:cloud:ltm:pools:ltmpoolstate",
+            "lastUpdateMicros": 0,
+            "name": "/Common/test-www",
+            "objectId": 18161,
+            "poolMemberReferences": [
+                {
+                    "link": "https://localhost/mgmt/tm/cloud/ltm/pool-members/37240"
+                }
+            ],
+            "selfLink": "https://localhost/mgmt/tm/cloud/ltm/pools/18161",
+            "statsContext": {
+                "stats": [
+                    {
+                        "description": "availability_state: AVAIL_GREEN",
+                        "lastUpdateMicros": 0,
+                        "name": "health",
+                        "updateType": "BASIC",
+                        "value": 1.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_in",
+                        "updateType": "BASIC",
+                        "value": 1958.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_out",
+                        "updateType": "BASIC",
+                        "value": 2835.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-in",
+                        "updateType": "BASIC",
+                        "value": 3084376.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-out",
+                        "updateType": "BASIC",
+                        "value": 28411304.0
+                    },
+                    {
+                        "description": "SERVERSIDE: cur_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.cur_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: max_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.max_conns",
+                        "updateType": "BASIC",
+                        "value": 9.0
+                    },
+                    {
+                        "description": "SERVERSIDE: tot_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.tot_conns",
+                        "updateType": "BASIC",
+                        "value": 96.0
+                    }
+                ]
+            }
+        },
+        {
+            "description": "virtual2.clemson.edu",
+            "generation": 1,
+            "kind": "tm:cloud:ltm:pools:ltmpoolstate",
+            "lastUpdateMicros": 0,
+            "name": "/Common/virtual2_clemson_edu",
+            "objectId": 18163,
+            "poolMemberReferences": [
+                {
+                    "link": "https://localhost/mgmt/tm/cloud/ltm/pool-members/37244"
+                }
+            ],
+            "selfLink": "https://localhost/mgmt/tm/cloud/ltm/pools/18163",
+            "statsContext": {
+                "stats": [
+                    {
+                        "description": "availability_state: AVAIL_RED",
+                        "lastUpdateMicros": 0,
+                        "name": "health",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: cur_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.cur_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: max_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.max_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: tot_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.tot_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    }
+                ]
+            }
+        },
+        {
+            "description": "Front hosts not configured for Shib",
+            "generation": 1,
+            "kind": "tm:cloud:ltm:pools:ltmpoolstate",
+            "lastUpdateMicros": 0,
+            "name": "/Common/web_auth",
+            "objectId": 18165,
+            "poolMemberReferences": [
+                {
+                    "link": "https://localhost/mgmt/tm/cloud/ltm/pool-members/37251"
+                },
+                {
+                    "link": "https://localhost/mgmt/tm/cloud/ltm/pool-members/37248"
+                }
+            ],
+            "selfLink": "https://localhost/mgmt/tm/cloud/ltm/pools/18165",
+            "statsContext": {
+                "stats": [
+                    {
+                        "description": "availability_state: AVAIL_GREEN",
+                        "lastUpdateMicros": 0,
+                        "name": "health",
+                        "updateType": "BASIC",
+                        "value": 1.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-in",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: cur_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.cur_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: max_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.max_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: tot_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.tot_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    }
+                ]
+            }
+        },
+        {
+            "description": "",
+            "generation": 1,
+            "kind": "tm:cloud:ltm:pools:ltmpoolstate",
+            "lastUpdateMicros": 0,
+            "name": "/Common/SMTP-Out_pool",
+            "objectId": 40268,
+            "poolMemberReferences": [
+                {
+                    "link": "https://localhost/mgmt/tm/cloud/ltm/pool-members/40331"
+                },
+                {
+                    "link": "https://localhost/mgmt/tm/cloud/ltm/pool-members/40336"
+                },
+                {
+                    "link": "https://localhost/mgmt/tm/cloud/ltm/pool-members/40341"
+                },
+                {
+                    "link": "https://localhost/mgmt/tm/cloud/ltm/pool-members/40274"
+                },
+                {
+                    "link": "https://localhost/mgmt/tm/cloud/ltm/pool-members/40346"
+                },
+                {
+                    "link": "https://localhost/mgmt/tm/cloud/ltm/pool-members/40317"
+                }
+            ],
+            "selfLink": "https://localhost/mgmt/tm/cloud/ltm/pools/40268",
+            "statsContext": {
+                "stats": [
+                    {
+                        "description": "availability_state: AVAIL_RED",
+                        "lastUpdateMicros": 0,
+                        "name": "health",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_in",
+                        "updateType": "BASIC",
+                        "value": 12.0
+                    },
+                    {
+                        "description": "SERVERSIDE: pkts_out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.pkts_out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-in",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-in",
+                        "updateType": "BASIC",
+                        "value": 5472.0
+                    },
+                    {
+                        "description": "SERVERSIDE: bits-out",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.bits-out",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: cur_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.cur_conns",
+                        "updateType": "BASIC",
+                        "value": 0.0
+                    },
+                    {
+                        "description": "SERVERSIDE: max_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.max_conns",
+                        "updateType": "BASIC",
+                        "value": 3.0
+                    },
+                    {
+                        "description": "SERVERSIDE: tot_conns",
+                        "lastUpdateMicros": 0,
+                        "name": "serverside.tot_conns",
+                        "updateType": "BASIC",
+                        "value": 3.0
+                    }
+                ]
+            }
+        }
+    ],
+    "kind": "tm:cloud:ltm:pools:ltmpoolcollectionstate",
+    "lastUpdateMicros": 0,
+    "selfLink": "https://localhost/mgmt/tm/cloud/ltm/pools"
+}
