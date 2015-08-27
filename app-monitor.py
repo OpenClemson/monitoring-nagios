@@ -13,16 +13,6 @@ A test harness to query multiple endpoints and roll up monitoring errors
 into a single alert for Nagios
 '''
 
-# TODO
-# add parameters for default contact
-# and default alert level
-# if there is an unknown error, use those.
-
-# default argument values
-MAX_THREADS = 10
-DEFAULT_TIMEOUT = 30  # seconds
-MAX_OUTPUT_LEN = 250
-
 # exit status codes/messages
 EXIT_OK = (0, 'OK')
 EXIT_WARNING = (1, 'WARNING')
@@ -44,6 +34,12 @@ CONFIG_ERROR_JSON_PARSE = 'Cannot parse metadata'
 # usage errors
 PARAM_ERROR_MEATADATA_URL = 'Invalid metadata URL'
 
+# default argument values
+MAX_THREADS = 10
+DEFAULT_TIMEOUT = 30  # seconds
+MAX_OUTPUT_LEN = 250
+DEFAULT_LEVEL = 'critical'
+MONITORING_CONTACT = 'monitoring'
 
 class TestHarness:
     '''
@@ -79,10 +75,10 @@ class TestHarness:
         try:
             parsed = urlparse(self.metadata_url)
         except:
-            self.default_contact = 'monitoring'
+            self.default_contact = MONITORING_CONTACT
             self.halt_config_error(PARAM_ERROR_MEATADATA_URL)
         if parsed.scheme == '' or parsed.netloc == '':
-            self.default_contact = 'monitoring'
+            self.default_contact = MONITORING_CONTACT
             self.halt_config_error(PARAM_ERROR_MEATADATA_URL)
         base_url = parsed.scheme + '://' + parsed.netloc
 
@@ -213,12 +209,25 @@ class TestHarness:
 
 def main():
     parser = argparse.ArgumentParser(description='Runs application monitoring tests')
-    parser.add_argument('metadata_url', metavar='URL', help='location of endpoint metadata')
-    parser.add_argument('--contact', help='default contact for the test')
-    parser.add_argument('--level', help='default level for the test', choices=LEVELS.keys())
-    parser.add_argument('--timeout', help='network request timeout, in seconds (default %s)' % DEFAULT_TIMEOUT, default=DEFAULT_TIMEOUT)
-    parser.add_argument('--threads', help='maximum number of threads to use (default %s)' % MAX_THREADS, default=MAX_THREADS)
-    parser.add_argument('--length', help='maximum output length (default %s)' % MAX_OUTPUT_LEN, default=MAX_OUTPUT_LEN)
+    parser.add_argument('metadata_url',
+        metavar='URL',
+        help='location of endpoint metadata')
+    parser.add_argument('--contact',
+        help='contact for the test (default %s)' % MONITORING_CONTACT,
+        default=MONITORING_CONTACT)
+    parser.add_argument('--level',
+        help='level for unknown errors, i.e. parsing metadata (default %s)' % DEFAULT_LEVEL,
+        choices=LEVELS.keys(),
+        default=DEFAULT_LEVEL)
+    parser.add_argument('--timeout',
+        help='network request timeout, in seconds (default %s)' % DEFAULT_TIMEOUT,
+        default=DEFAULT_TIMEOUT)
+    parser.add_argument('--threads',
+        help='maximum number of threads to use (default %s)' % MAX_THREADS,
+        default=MAX_THREADS)
+    parser.add_argument('--length',
+        help='maximum output length (default %s)' % MAX_OUTPUT_LEN,
+        default=MAX_OUTPUT_LEN)
     args = parser.parse_args()
     harness = TestHarness(args.metadata_url, args.contact, LEVELS[args.level], args.threads, args.timeout, args.length)
     harness.run()
